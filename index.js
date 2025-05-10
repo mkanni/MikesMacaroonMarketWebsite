@@ -244,7 +244,7 @@ app.get("/", (req, res) => {
       </div>
     </div>
   `;
-  res.send(renderPage("Mike's Macaroon Market", content));
+  res.send(renderPage("Kanni's Macaroon Market", content));
 });
 
 // Products route: List available products from the database with images.
